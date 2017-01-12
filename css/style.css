@@ -122,15 +122,15 @@ h2 {
 	border-radius: 5px;
 }
 .tag.catelog {
-	opacity: 0.5
+	opacity: 0.5;
 }
 .tag.expert {
 	padding:4px 10px;
 	font-size: 1.2em;
 }
+.tag.add {
+    opacity: 0.75;
+}
 em {
 	font-style: italic;
-}
-#grad_courses {
-	color: 
 }
