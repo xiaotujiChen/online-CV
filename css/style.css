@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, "Microsoft YaHei", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em
+}
+
+.center {
+    text-align: center;
+}
+
+.section {
+    background-color: #9bc3ca;
+    color: #eef3f0;
+    padding: 50px;
+}
+
+#portrait {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #F0FFF3;
+    border-radius: 50%;
+}
+
+#title {
+    margin: 0.25em 0 0 0;
+}
+
+h1 {
+    text-shadow: 1px 2px #9bc3ca, 2px 4px #F0FFF3;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+#subtitle {
+    margin: 1em 0 0.25em 0;
+    color: #d3e0df;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin: 0.7em 0 0.1em 0;
+}
+h4 em{
+	color:#597e82;
+}
+
+h6 {
+    font-size: 1.1em;
+    margin: 0.2em 0 0 0;
+    color: #597e82;
+}
+
+a {
+    color: #597e82;
+    text-decoration: none;
+}
+
+.mousehover {
+    color: #fdf358;
+}
+
+.row {
+    position: relative;
+    margin-bottom: 0.7em;
+}
+
+.col-2 {
+    width: 16.66667%;
+    float: left;
+}
+
+.circle-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eef3f0;
+    padding: 18px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0 0 0.2em 0;
+}
+
+.col-4 {
+    width: 33.33333%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.highlight {
+    color: #008a75;
+}
+
+.highlight:hover {
+    color: #fdf358;
+}
+
+.tag-panel {
+	margin: 15px auto;
+}
+
+.tag {
+	display: inline-block;
+	padding: 2px 8px;
+	margin: 0 0 3px 3px;
+	background-color: #597e82;
+	color: #d3e0df;
+	border-radius: 5px;
+}
+.tag.catelog {
+	opacity: 0.5
+}
+.tag.expert {
+	padding:4px 10px;
+	font-size: 1.2em;
+}
+em {
+	font-style: italic;
+}
+#grad_courses {
+	color: 
+}
