@@ -5,4 +5,4 @@ Thrid-party Library: fullpage.js
 Tools: HTML5, CSS3, JavaScript, jQuery
 ####PDF Version
 Source: [here](http://coderxiaoyu.com/resume.pdf)  
-#####Feel free to contact me: xc334@cornell.edu
+####Feel free to contact me: xc334@cornell.edu
