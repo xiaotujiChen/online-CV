@@ -12,7 +12,7 @@
 
 <body>
     <div id="fullpage">
-        <div class="section active center fp-section fp-table" id="home">
+        <div class="section active center fp-section fp-table page1" id="home">
             <div class="fp-tableCell" style="height: 100%">
                 <img id="portrait" src="img/portrait.jpg">
                 <h1 id="title">Xiyu Chen</h1>
@@ -23,26 +23,26 @@
                 <p><a href="mailto:xc334@cornell.edu">xc334@cornell.edu</a></p>
             </div>
         </div>
-        <div class="section fp-section fp-table" id="projects">
+        <div class="section fp-section fp-table page2" id="projects">
             <div class="fp-tableCell" style="height: 100%">
                 <h1>Projects</h1>
                 <div class="row">
                     <div class="col-2 center">
-                        <a class="circle-img" href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">
-                            <img src="img/clock.png" alt="alarmclock">
+                        <a class="circle-img" href="https://github.com/xiaotujiChen/Smart-Alarm-Clock" target="_blank">
+                            <img id="clock" src="img/clock.png" alt="alarmclock">
                         </a>
                     </div>
                     <div class="col-4">
-                        <h2><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Smart Alarm Clock</a></h2>
+                        <h2 class="alarm"><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Smart Alarm Clock</a></h2>
                         <p>A multifunctional alarm clock built with Raspberry Pi. Two control methods: mobile & gesture.</p>
                     </div>
                     <div class="col-2 center">
-                        <a class="circle-img" href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">
-                            <img src="img/control.png" alt="Android App">
+                        <a class="circle-img" href="https://github.com/xiaotujiChen/Remote-Control-Android-App" target="_blank">
+                            <img id="android" src="img/control.png" alt="Android App">
                         </a>
                     </div>
                     <div class="col-4">
-                        <h2><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Remote Control Android App</a></h2>
+                        <h2 class="android"><a href="https://github.com/xiaotujiChen/Remote-Control-Android-App" target="_blank">Remote Control Android App</a></h2>
                         <p>An Android App designed to control smart alarm clock.</p>
                     </div>
                     <div class="clear"></div>
@@ -50,32 +50,32 @@
                 <div class="row">
                     <div class="col-2 center">
                         <a class="circle-img" href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">
-                            <img src="img/books.png" alt="Book Store">
+                            <img id="book" src="img/books.png" alt="Book Store">
                         </a>
                     </div>
                     <div class="col-4">
-                        <h2><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Mini Online Book Store Web App</a></h2>
+                        <h2 class="book"><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Mini Online Book Store Web App</a></h2>
                         <p>A web App designed to view book list, choose and read books.</p>
                     </div>
                     <div class="col-2 center">
-                        <a class="circle-img" href="http://coderxiaoyu.com/applefestival/index.php" target="_blank">
-                            <img src="img/apple.png" alt="alarmclock">
+                        <a class="circle-img" href="https://github.com/xiaotujiChen/Apple-Festival-Web-Design" target="_blank">
+                            <img id="apple" src="img/apple.png" alt="apple">
                         </a>
                     </div>
                     <div class="col-4">
-                        <h2><a href="http://coderxiaoyu.com/applefestival/index.php" target="_blank">Apple Harvest Festival Website</a></h2>
+                        <h2 class="apple"><a href="http://coderxiaoyu.com/applefestival/index.php" target="_blank">Apple Harvest Festival Website</a></h2>
                         <p>A website designed for annual Apple Harvest Festival in Ithaca.</p>
                     </div>
                     <div class="clear"></div>
                 </div>
                 <div class="row">
                     <div class="col-2 center">
-                        <a class="circle-img" href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">
-                            <img src="img/music.png" alt="alarmclock">
+                        <a class="circle-img" href="https://github.com/xiaotujiChen/Music-Player-for-Linux-Platform" target="_blank">
+                            <img id="music" src="img/music.png" alt="alarmclock">
                         </a>
                     </div>
                     <div class="col-4">
-                        <h2><a href="http://coderxiaoyu.com/alarmclock/index.html" target="_blank">Music Player based on Linux Platform</a></h2>
+                        <h2 class="music"><a href="https://github.com/xiaotujiChen/Music-Player-for-Linux-Platform" target="_blank">Music Player based on Linux Platform</a></h2>
                         <p>A music player designed to download and play music from the internet.</p>
                     </div>
                     <div class="col-2 center">
@@ -92,14 +92,14 @@
                 <p class="center">And more on <a href="https://github.com/xiaotujiChen" target="_blank" class="highlight">Github</a> and <a href="https://www.linkedin.com/in/xiyuchen" target="_blank" class="highlight">LinkedIn</a></p>
             </div>
         </div>
-        <div class="section center fp-section fp-table">
+        <div class="section center fp-section fp-table page3">
             <div class="fp-tableCell" style="height: 100%">
                 <h1>Skills</h1>
                 <div class="tag-panel">
                     <div class="tag catelog">
                         Programming Language
                     </div>
-                    <div class="tag expert">Java</div>
+                    <div class="tag expert" id="java">Java</div>
                     <div class="tag">Python</div>
                     <div class="tag">JavaScript</div>
                 </div>
@@ -107,16 +107,16 @@
                     <div class="tag catelog">
                         Web Design
                     </div>
-                    <div class="tag expert">HTML5</div>
-                    <div class="tag expert">CSS3</div>
+                    <div class="tag expert" id="html">HTML5</div>
                     <div class="tag">jQuery</div>
+                    <div class="tag expert" id="css">CSS3</div>
                     <div class="tag">Vue.js</div>
                 </div>
                 <div class="tag-panel">
                     <div class="tag catelog">
                         Database
                     </div>
-                    <div class="tag expert">MySQL</div>
+                    <div class="tag expert" id="mysql">MySQL</div>
                     <div class="tag">SQL</div>
                     <div class="tag">PostgreSQL</div>
                 </div>
@@ -131,11 +131,11 @@
                         Data Analysis
                     </div>
                     <div class="tag">MATLAB</div>
-                    <div class="tag expert">JMP</div>
+                    <div class="tag expert" id="jmp">JMP</div>
                 </div>
             </div>
         </div>
-        <div class="section center fp-section fp-table">
+        <div class="section center fp-section fp-table page4">
             <div class="fp-tableCell" style="height: 100%">
                 <h1>Education</h1>
                 <h4>Graduate Student at <em>Cornell University</em></h4>
@@ -145,7 +145,7 @@
                 <div class="tag catelog highlight" id="grad_courses">
                     Courses:
                 </div>
-                <div id="courses" style="display: none;">
+                <div id="gra_courses" style="display: none;">
                     <p>Database</p>
                     <p>Embedded Operating System</p>
                     <p>Java & Data Structure</p>
@@ -161,7 +161,7 @@
                 <div class="tag catelog highlight" id="under_courses">
                     Courses:
                 </div>
-                <div id="courses" style="display: none;">
+                <div id="und_courses" style="display: none;">
                     <p>Computer Organization & Interface Technology</p>
                     <p>Digital Logic Circuits</p>
                     <p>Communication Principle</p>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </div>
-        <div class="section center fp-section fp-table">
+        <div class="section center fp-section fp-table page5">
             <div class="fp-tableCell" style="height: 100%">
                 <h1>About Me</h1>
                 <div class="tag-panel">
@@ -190,61 +190,16 @@
                     <div class="tag">A girl</div>
                     <div class="tag add">Strong as a man</div>
                 </div>
-            </div>
-        </div>
-        <div class="section center fp-section fp-table">
-            <div class="fp-tableCell" style="height: 100%">
-                <h1>Learn More</h1>
-                <h2><a href="https://www.linkedin.com/in/xiyuchen" target="_blank">LinkedIn</a> | <a href="https://github.com/xiaotujiChen" target="_blank">Github</a></h2>
+                <h1>Want to learn more?</h1>
+                <h2><a href="https://www.linkedin.com/in/xiyuchen" target="_blank">LinkedIn</a> | <a href="https://github.com/xiaotujiChen" target="_blank">Github</a> | <a href="http://coderxiaoyu.com/resume.pdf" target="_blank">Resume</a></h2>
                 <p>Email: <a href="mailto:xc334@cornell.edu" target="_blank">xc334@cornell.edu</a></p>
                 <p>Phone: 607-216-5253</p>
-                <h3><a href="http://coderxiaoyu.com/resume.pdf" target="_blank" class="highlight">Download Resume</a></h3>
             </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js"></script>
-    <script>
-    $(document).ready(function() {
-        $(fullpage).fullpage({
-            //resize:true,
-            scrollingSpeed: 1000,
-            loopHorizontal: true,
-            navigation: true,
-            navigationPosition: 'left',
-            navigationTooltips: ['Home', 'Projects', 'Skills', 'Education', 'About me', 'Contact me'],
-            slidesNavigation: true,
-            slidesNavPosition: 'bottom',
-            controlArrows: false,
-            loopBottom:true,
-            // onLeave: function(index, nextIndex, direction) {
-            //     //$(fullpage).find('.section').
-            //     //console.log("onLeave:index=" + index + ",nextIndex=" + nextIndex + ",direction=" + direction);
-            //     console.log('section ' + (index - 1) + 'is leaving');
-            //     $(fullpage).find('.section').eq(index - 1).trigger('onLeave');
-            // },
-            // afterLoad: function(anchorLink, index) {
-            //     console.log('section ' + (index - 1) + 'is load');
-            //     $(fullpage).find('.section').eq(index - 1).trigger('onLoad');
-            // }
-
-        });
-        // $('.section').on('onLeave', function(){
-        //     $(this).fadeOut(1000);
-
-        // });
-        // $('.section').on('onLoad', function(){
-        //     $(this).fadeIn(1000);
-        // })
-
-        $("a").hover(function() {
-                $(this).addClass("mousehover");
-            },
-            function() {
-                $(this).removeClass("mousehover");
-            });
-
-    });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/move.js/0.5.0/move.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
