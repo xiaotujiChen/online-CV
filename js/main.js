@@ -36,6 +36,8 @@ $(document).ready(function() {
                         move('h2.apple').scale(1).end();
                         move('#music').rotate(-360).end();
                         move('h2.music').scale(1).end();
+                        move('#light').rotate(-360).end();
+                        move('h2.light').scale(1).end();
                         break;
                     case 3:
                         move('#java').scale(1).end();
@@ -69,7 +71,11 @@ $(document).ready(function() {
                                                 move('#apple').rotate(360).end(function() {
                                                     move('h2.apple').scale(1.1).end(function() {
                                                         move('#music').rotate(360).end(function() {
-                                                            move('h2.music').scale(1.1).end();
+                                                            move('h2.music').scale(1.1).end(function(){
+                                                                move('#light').rotate(360).end(function() {
+                                                                    move('h2.light').scale(1.1).end();
+                                                                });
+                                                            });
                                                         });
                                                     });
                                                 });
